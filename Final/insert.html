@@ -1,0 +1,92 @@
+1<html>
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>ToughFit</title>
+  <link rel="stylesheet"  href="style.css"> 
+</head>
+<body>
+<form name="form" action="http://127.0.0.1/Final/insert.php" method="POST" accept-charset="UTF-8" align="center">
+<div class="header"><img class="icon" src="https://www.designevo.com/res/templates/thumb_small/blue-shield-and-banner-emblem.png" alt=""/></div>
+<div class="content content_white">
+  <div class="max-width">
+    <h5>Chen Pin-Yang</h5>
+    <h1>
+		ToughFit 健身房工讀生申請表
+	</h1>
+    <h1 class="small_english">ToughFit part-time job application form</h1>
+    <div class="title_hr"></div>
+	<h2>
+		基本資料/Basic information
+	</h2>
+	<table>
+		<tr> 
+		   <th>電話/phone:</th><td><input id="phone" type="text" name="phone" size="30" /></td>
+		   <th>姓名/name:</th><td><input id="studentname" type="text" name="studentname" size="30" /></td>
+		</tr>
+		<tr>
+			<th>學校/school:</th><td><input id="school" type="text" name="school" size="30" /></td>
+			<th>系級/grade:</th><td><input id="grade" type="text" name="grade" size="30" /></td>
+		</tr>
+		<tr>
+			<th>性別/sex</th><td><input id="sex" type="text" name="sex" size="30" /></td>
+			<th>學號/studentID:</th><td><input id="studentid" type="text" name="studentid" size="30" /></td>
+		</tr>
+		<tr>
+			<th>目前GPA/currnt GPA:</th><td><input id="currentgpa" type="text" name="currentgpa" size="30" /></td>
+			<th>電子信箱/email</th><td><input id="email" type="text" name="email" size="30" /></td>
+		</tr>
+		
+	<table/>
+	<h2>
+		家庭資料/Family information
+	</h2>
+	<table>
+		<tr>
+			<th>就學人數/educating member size</th><td><input id="educatingmember" type="text" name="educatingmember" size="30" /></td>
+		</tr>
+		<tr>
+			<th>家庭人數/family size:</th><td><input id="familysize" type="text" name="familysize" size="30" /></td>
+		</tr>
+		<tr>
+			<th>工作人數/working member size:</th><td><input id="workingsize" type="text" name="workingsize" size="30" /></td>
+		</tr>
+	<table/>
+	<h2>
+		工作志願及專長/Will and Specialty
+	</h2>
+	<table>
+		<label class="checking">用過的程式語言/coding experience:</label>
+			<input type="checkbox" name="lang[]" value="javascript" checked><label>JavaScript</label>
+			<input type="checkbox" name="lang[]" value="java" checked>J<label>ava</label>
+			<input type="checkbox" name="lang[]" value="c"><label>C</label>
+			<input type="checkbox" name="lang[]" value="c-plus2"><label>C++</label>
+			<input type="checkbox" name="lang[]" value="php"><label>PHP</label>
+			<input type="checkbox" name="lang[]" value="python" checked><label>Python</label><br/>
+		<label class="checking">可工讀時間/available working time:</label>
+			<label><input type="checkbox" name="time[]" value="day" checked>白天工讀/day</label>
+			<label><input type="checkbox" name="time[]" value="night" checked>夜間工讀/night</label><br/>
+		<label class="checking">擬工讀單位/expected working section:</label>
+			<label><input type="checkbox" name="sect[]" value="administrative" checked>行政/administrative</label>
+			<label><input type="checkbox" name="sect[]" value="trainer" checked>教練/trainer</label>
+			<label><input type="checkbox" name="sect[]" value="translate" checked>翻譯/translate</label>
+			<label><input type="checkbox" name="sect[]" value="software" checked>軟體處理/software</label><br/>
+		<label class="checking">專長/Specialty:</label>
+			<label><input type="checkbox" name="spec[]" value="paperwork" checked>文書處理/paper work</label>
+			<label><input type="checkbox" name="spec[]" value="workout" checked>健身/workout</label>
+			<label><input type="checkbox" name="spec[]" value="language" checked>語言/language</label>
+			<label><input type="checkbox" name="spec[]" value="design" checked>設計/design</label><br/>
+			<label>其他/others:  </label><input id="specialty" type="text" name="specialty" size="30" /></label>
+	<table/>
+	<input type="reset" value="清除表單"/>
+    <input id="submit" name="submit" type="submit" value="送出" />
+	
+	<br/>
+	<br/>
+	
+     <div class="button"><a href="knowMore.html" style = "color:#27232f">知道更多<a/></div>
+    <div class="button button_blue"><a href="contect.html" style = "color:#f3f7f7">聯絡ToughFit</a></div>
+    <div class="button button_yellow"><a href="CusHomePage.html">回到主頁</a></div>
+  </div>
+</div>
+<body/>
+<html/>

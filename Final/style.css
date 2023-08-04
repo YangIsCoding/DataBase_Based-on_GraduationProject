@@ -1,0 +1,138 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.max-width {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  height: 300px;
+  background-color: #27232f;
+}
+.header .icon {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+  font-family: "Roboto", 微軟正黑體;
+  padding: 50px;
+}
+.content h5 {
+  margin-top: 10px;
+}
+.content .title_hr {
+  border: solid 3px #ffb336;
+  width: 900px;
+}
+.content h1 {
+  font-size: 40px;
+  cursor: pointer;
+}
+.content h1.small_english {
+  font-size: 24px;
+}
+.content .small_english {
+  margin-top: -15px;
+}
+.content .button {
+  padding: 5px 25px;
+  display: inline-block;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px #27232f;
+  cursor: pointer;
+}
+.content .button_blue {
+  background-color: #27232f;
+  color: #f3f7f7;
+}
+.content .button_yellow {
+  background-color: #ffb336;
+  color: #27232f;
+}
+.content .color_chip {
+  display: inline-block;
+  margin-right: 15px;
+}
+.content .color_chip .color_block, .content .color_chip .color_tag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content .color_chip .color_tag {
+  width: 70px;
+}
+.content_white .insert{
+	color: black;
+}
+.content_white .search{
+	color: black;
+}
+.content_white .update{
+	color: black;
+}
+.content_white .Title{
+	color: #ffb336;
+}
+
+.content_white .checking{
+	color: black;
+}
+.content .color_chip .color_block {
+  width: 30px;
+  height: 30px;
+  border: solid 2px white;
+}
+.content .color_chip .color_block_yellow {
+  background: #ffb336;
+}
+.content .color_chip .color_block_blue {
+  background: #27232f;
+}
+.content .color_chip .color_block_white {
+  background: #f3f7f7;
+}
+.content .color_chip .color_block_grey {
+  background: #333333;
+}
+
+.content_white {
+  background-color: #f3f7f7;
+  color: #333333;
+}
+.content_white .small_english {
+  color: #ffb336;
+}
+.content_white h1, .content_white h2, .content_white h3 {
+  font-weight: 300;
+}
+.content_blue {
+  background-color: #27232f;
+  color: #f3f7f7;
+}lue h3 {
+  font-weight: 100;
+}
+.content_blue .small_english {
+  color: #ffb336;
+}
+.content_blue h1, .content_blue h2, .content_b
+.content_blue .button {
+  border-color: #f3f7f7;
+}
+.texty{
+  cursor: pointer;
+}
